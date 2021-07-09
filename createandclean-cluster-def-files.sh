@@ -1,0 +1,5 @@
+python3 /Users/Atticus/svn/crk/AtticusClustering/Scripts/make_cluster_with_defs.py 
+sed 's/\[//g' /Users/Atticus/svn/crk/AtticusClustering/AEWComparisons/AEW_VII_defined.csv | sed 's/\]//g' | sed 's/\"//g' | sed "s/\'//g" | sort -t, -k2 -n | sed "s/\,/ /g" > /Users/Atticus/svn/crk/AtticusClustering/AEWComparisons/VII_Cluster_Definitions.csv
+sed 's/\[//g' /Users/Atticus/svn/crk/AtticusClustering/AEWComparisons/AEW_VAI_defined.csv | sed 's/\]//g' | sed 's/\"//g' | sed "s/\'//g" | sort -t, -k2 -n | sed "s/\,/ /g" > /Users/Atticus/svn/crk/AtticusClustering/AEWComparisons/VAI_Cluster_Definitions.csv
+sed 's/\[//g' /Users/Atticus/svn/crk/AtticusClustering/AEWComparisons/AEW_VTI_defined.csv | sed 's/\]//g' | sed 's/\"//g' | sed "s/\'//g" | sort -t, -k2 -n | sed "s/\,/ /g" > /Users/Atticus/svn/crk/AtticusClustering/AEWComparisons/VTI_Cluster_Definitions.csv
+sed 's/\[//g' /Users/Atticus/svn/crk/AtticusClustering/AEWComparisons/AEW_VTA_defined.csv | sed 's/\]//g' | sed 's/\"//g' | sed "s/\'//g" | sort -t, -k2 -n | sed "s/\,/ /g" > /Users/Atticus/svn/crk/AtticusClustering/AEWComparisons/VTA_Cluster_Definitions.csv
