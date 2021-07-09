@@ -1,0 +1,1 @@
+cat ./outputfiles/final-corpus.csv| tr -d "'" | tr -d "[" | tr -d "]" | tr -d '"' | sed 's/, /,/g' > ./outputfiles/preframe.csv
