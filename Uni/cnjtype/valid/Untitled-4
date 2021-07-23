@@ -1,0 +1,275 @@
+\documentclass[11pt, a4paper]{article}
+%\usepackage{geometry}
+\usepackage[inner=1.5cm,outer=1.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{fancyhdr, lastpage, bbding, pmboxdraw}
+\usepackage[usenames,dvipsnames]{color}
+\definecolor{darkblue}{rgb}{0,0,.6}
+\definecolor{darkred}{rgb}{.7,0,0}
+\definecolor{darkgreen}{rgb}{0,.6,0}
+\definecolor{red}{rgb}{.98,0,0}
+\usepackage[colorlinks,pagebackref,pdfusetitle,urlcolor=darkblue,citecolor=darkblue,linkcolor=darkred,bookmarksnumbered,plainpages=false]{hyperref}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\usepackage{color, colortbl}
+\pagestyle{fancyplain}
+\fancyhf{}
+\lhead{ \fancyplain{}{LING YYY} }
+%\chead{ \fancyplain{}{} }
+\rhead{ \fancyplain{}{\today} }
+%\rfoot{\fancyplain{}{page \thepage\ of \pageref{LastPage}}}
+\fancyfoot[RO, LE] {page \thepage\ of \pageref{LastPage} }
+\thispagestyle{plain}
+\usepackage{booktabs}
+\usepackage{dashrule}
+
+%%%%%%%%%%%% LISTING %%%
+\usepackage{listings}
+\usepackage{caption}
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\usepackage{verbatim} % used to display code
+\usepackage{fancyvrb}
+\usepackage{acronym}
+\usepackage{amsthm}
+\VerbatimFootnotes % Required, otherwise verbatim does not work in footnotes!
+\usepackage{placeins}
+
+
+\definecolor{OliveGreen}{cmyk}{0.64,0,0.95,0.40}
+\definecolor{CadetBlue}{cmyk}{0.62,0.57,0.23,0}
+\definecolor{lightlightgray}{gray}{0.93}
+
+
+
+\lstset{
+%language=bash,                          % Code langugage
+basicstyle=\ttfamily,                   % Code font, quizples: \footnotesize, \ttfamily
+keywordstyle=\color{OliveGreen},        % Keywords font ('*' = uppercase)
+commentstyle=\color{gray},              % Comments font
+numbers=left,                           % Line nums position
+numberstyle=\tiny,                      % Line-numbers fonts
+stepnumber=1,                           % Step between two line-numbers
+numbersep=5pt,                          % How far are line-numbers from code
+backgroundcolor=\color{lightlightgray}, % Choose background color
+frame=none,                             % A frame around the code
+tabsize=2,                              % Default tab size
+captionpos=t,                           % Caption-position = bottom
+breaklines=true,                        % Automatic line breaking?
+breakatwhitespace=false,                % Automatic breaks only at whitespace?
+showspaces=false,                       % Dont make spaces visible
+showtabs=false,                         % Dont make tabls visible
+columns=flexible,                       % Column format
+morekeywords={__global__, __device__},  % CUDA specific keywords
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\begin{center}
+{\Large \textsc{INT D 318 Technologies for Endangered Language Documentation}}
+\end{center}
+\begin{center}
+
+\end{center}
+%\date{September 26, 2014}
+
+\begin{center}
+\rule{6in}{0.4pt}
+\begin{minipage}[t]{.75\textwidth}
+\begin{tabular}{llcccll}
+\textbf{Instructor:} & Atticus Harrigan & & &  & \textbf{Time:} & T \& R 17:00-18:30 \\
+\textbf{Email:} &  \href{galvin+INTD318@ualberta.ca}{galvin+INTD318@ualberta.ca} & & & & \textbf{Place:} & Online
+\end{tabular}
+\end{minipage}
+\rule{6in}{0.4pt}
+\end{center}
+\vspace{.5cm}
+\setlength{\unitlength}{1in}
+\renewcommand{\arraystretch}{2}
+
+\noindent\textbf{Course Page:}
+\href{}{Google Drive}
+
+\vskip.15in
+\noindent\textbf{Office Hours:} By Appointment
+
+\vskip.15in
+\noindent\textbf{Required Texts:} %\footnotemark
+See reference list. All readings are either freely available online or available through the university library. Links to these resources will be posted on the class website.
+
+\vskip.15in
+\noindent\textbf{Objectives:}  
+This course introduces students to the use of technology for the purposes of documenting and revitalizing languages. By the end of this course, students will be able to: 
+\begin{itemize}
+    \item Identify and describe the different types of technology used in language documentation and revitalization
+    \item  Recognize and respond to ethical issues of language technology
+    \item Formulate and evaluate a research plan involving the use or creation of technology for language documentation or revitalization
+\end{itemize}
+
+\vskip.15in
+\noindent\textbf{Prerequisites:} Undergraduate coursework in each of the following: morphology, phonology, and syntax. Students are \emph{highly} encouraged to have taken a previous course in computing or programming.
+\vskip.15in
+\noindent\textbf{Email:}  When emailing me about this course, please use the email galvin+lingYYY@ualberta.ca. I'm going to setting up a rule to place all emails sent there into a priority inbox. I plan to respond to all emails within 24 hours, but if galvin+lingYYY@ualberta.ca is not the email your question is sent to, I can't promise I'll be able to stick to that timeline.
+\vspace*{.4in}
+
+\begin{huge}
+\noindent\textbf{Course Content}
+\end{huge}
+\vspace*{.15in}
+
+
+\noindent \textbf{Lectures:}
+Success in this course relies on students having read the assigned readings before class. Lectures will be discussing materials stemming from the readings. Although no attendance grade is given, regular attendance is essential for success in this course. Although this course will make use of a computer lab with all required software, You are encouraged to bring personal laptops to work on if available.
+
+\vspace*{.15in}
+
+\noindent \textbf{Marking \& Grading:}
+Marks for assignments will be given in percentages, and an overall course mark will be calculated according to the weights given below. Letter grades will be assigned to the overall mark according to the \href{https://policiesonline.ualberta.ca/PoliciesProcedures/Pages/DispPol.aspx?PID=101}{University guidelines}. There is no curve for the final letter grade (i.e. the distribution of grades is not predetermined by a quota that requires a certain number or percentage of grades at a particular level). As per the \href{https://calendar.ualberta.ca/index.php}{University Calendar}, marks and grades are based on a combination of absolute achievement and relative performance in a class. Grade cutoffs can thus differ between courses. Representative evaluative course material (such as practice/Test Yourself quizzes) will be available on the course website.
+\\
+\\
+\\
+\vspace*{.15in}
+
+\FloatBarrier
+\noindent \textbf{Course Outline:}
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{lp{78mm}l}
+Date            & Topic & Readings  \\
+\midrule
+Week 1   & Introduction to Language Documentation & \cite{grenoble2005saving} \& \cite{pine2017language} \\
+Week 2   & What is Language Technology? & \cite{moshagen2013building} \& \cite{SLP} (ToC) \\
+Week 3   & Documenting Languages: ELAN, NLTK, and SIL tools & \cite{wittenburg2006elan} \& \cite{robinson2007managing} \& \cite{moeller2014review} \\
+Week 4   & Revitalization Technology: Morphological Models, I-CALL, and Speech Technology & \cite{johnson2013using} \& \cite{arppe2016basic} \& \cite{brinklowindigenous} \& \cite{galla2016indigenous} \\
+Week 5   & Building a Finite State Transducer & \cite{hulden2009foma} \& \cite{harrigan2017learning} \& \cite{beemer2020linguist} (optional) \\
+Week 6   & Language Processing in Python with the NLTK & \cite{bird2009natural} (ch. 1 and 3) \\
+Week 7   & Language Processing in Python with the NLTK & \cite{bird2009natural} (ch. 3 and 11) \\
+Week 8   & Introduction to Neural Networks & \cite{SLP} (ch. 7) \\
+Week 9   & Using NN frameworks: OpenNMT & \cite{klein-etal-2017-opennmt} \\
+Week 10   & Neural Approaches to Documentation and Revitalization & \cite{hulden2014semi} \& \cite{schwartz-etal-2019-bootstrapping} \& \cite{jimerson2018improving}\\
+Week 11   & Project Presentations & \\
+
+
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
+\vspace*{.4in}
+
+
+
+\begin{huge}
+\noindent\textbf{Evaluation Policies}
+\end{huge}
+\vspace*{.15in}
+
+\noindent \textbf{Evaluation Metrics}
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{lll}
+Assignment            & Weight & Date Due   \\
+\midrule
+Describing Language Technology & 20\% & End of Week 3 \\
+Using and Critiquing Documentary Software & 20\% & End of Week 4 \\
+Using and Critiquing Revitalization Software & 20\% & End of Week 6 \\
+Proposal for Final Project & 10\% & End of Week 8 \\
+Final Project Presentation & 10\% & Week 11 \\
+Final Project Write up & 20\% & Last Day of Class \\
+
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+\vskip.15in
+
+\noindent \textbf{Assignments:} This course is assignment based. There will be no exams. Instead, there will be four assignments given throughout the semester. The first three assignments are each worth 20\% of your grade, while the final project is worth 40\% of your final grade (10\% for the proposal, 10\% for the final write up, and 20\% for the project write up. 
+
+Each assignment will be submitted electronically to me through the class website, with the exception of the final project presentation, which will be given in person in the final week of classes. All assignments must be submitted as a PDF file. Submissions should be in 12 point font for body text and 10 point font for tables or captions. Documents should have 1 inch margins on all sides. Beyond this, there are no specific formatting requirements. Details for assignment lengths and contents will be given in assignment handouts uploaded to the course website. A \emph{summary} of each assignment is given below.
+
+\vskip.15in
+
+\noindent \textbf{Assignment 1: Describing Language Technology:} This assignment will ask you to choose a piece of language technology for an under-resourced or endangered language. You will describe the underlying technology, identify the goal or problem the technology is attempting to remedy, and engage with how the technology does or does not engage with under-resourced endangered language community members. 
+\vskip.15in
+
+\noindent \textbf{Assignment 2: Using and Critiquing Documentary Software:} In this assignment, you will make use of some documentation software (e.g. Saymore, ELAN, etc.) to record yourself saying a paragraph (roughly 150 words) in a language you are fluent in. You will also use transcribe this recording. Describe your experience in recording and transcribing, paying attention to the difficulties or ease you experienced in this process. If you have criticisms, suggest some ways these could be remedied. 
+\vskip.15in
+
+\noindent \textbf{Assignment 3: Using and Critiquing Revitalization Software:} Similar to the previous assignment, you will pick some piece of revitalization software (morphological analyzers, I-CALL, or speech technologies) and attempt to make use of it. You do not need to document an under-resourced language, but must attempt to use the software to engage in an act of language revitalization (with any language, endangered or not) as defined in class. You will describe the process, difficulties, and ease with which you completed this task. You will highlight the accessibility of this software, and describe how it does or does not engage with endangered language communities. Criticisms should be accompanied by suggestions for improvements. 
+\vskip.15in
+
+\noindent \textbf{Assignment 4: Final Project Proposal:} You will provide a brief proposal for the building of some software for language documentation or revitalization. You should be able to complete this final project within the course of the semester. This means the proposed project should be realistically ambitious. Projects do not need to create entirely new frameworks, and can instead be instantiations of existing technologies (e.g. creating a small FST model of a particular linguistic feature, training a speech synthesizer, creating/analyzing a corpus using NLTK). This proposal will graded on how achievable it is and how well it engages with technologies discussed in class. The proposal should describe the goal of the project, the implications of the technology on documentation or revitalization, and how the technology will engage and serve under-resourced language communities.
+\vskip.15in
+
+\noindent \textbf{Assignment 5: Final Project Presentation:} The Project presentation will be judged separately from the project itself. You will be graded on their presentation skills and ability to successfully communicate academic research.
+\vskip.15in
+
+\noindent \textbf{Assignment 6: Final Project:} The final research project will be graded \emph{not} on the quality of their code, but on the write up of the process. You are expected to describe a problem or need in endangered or under-resourced language communities, identify and/or create some technology to address this need, evaluate or provide an evaluation framework for the technology, and describe the ethical and moral considerations of the technology. 
+
+\vspace*{.4in}
+
+\begin{huge}
+\noindent\textbf{Student Success}
+\end{huge}
+\vspace*{.15in}
+
+Life can be stressful. It is important to know that \textbf{you are not alone}. I want to make it very clear that your performance in this (or any) class is \textbf{not a reflection of your value as a person}. If you ever feel overwhelmed or stressed out by this class in particular, or your student life in general, please feel free to come and talk to me. If you find that weird, or you prefer other types of support, there are many resources available to you as a uAlberta student, such as the \href{https://www.su.ualberta.ca/services/psc/}{Peer Support Centre} and \href{https://www.ualberta.ca/current-students/counselling/index.html}{Counselling Services}. Please take care of yourself. Your grades in university are not more important than your health.
+\vspace*{.4in}
+
+\begin{huge}
+\noindent\textbf{Other Required Information}
+\end{huge}
+\vspace*{.15in}
+
+Policy about course outlines can be found in Section 23.4(2) of the University Calendar.
+\vspace*{.15in}
+
+
+\noindent \textbf{Academic Integrity \& Academic Honesty:} The University of Alberta is committed to the highest standards of academic integrity and honesty. Students are expected to be familiar with these standards regarding academic honesty and to uphold the policies of the University in this respect. Students are particularly urged to familiarize themselves with the provisions of the Code of Student Behaviour and avoid any behaviour that could potentially result in suspicions of cheating, plagiarism, misrepresentation of facts and/or participation in an offence. Academic dishonesty is a serious offence and can result in suspension or expulsion from the University. All students should consult the information provided by the Vice-Provost and Dean of Students regarding cheating and plagiarism in particular and academic dishonesty in general. If in doubt about what is permitted in this class, ask the instructor.
+Students involved in language courses and translation courses should be aware that on-line “translation engines” produce very dubious and unreliable “translations.” Students in language courses should be aware that, while seeking the advice of native or expert speakers is often helpful, excessive editorial and creative help in assignments is considered a form of cheating that violates the code of student conduct with dire consequences. An instructor or coordinator who is convinced that a student has handed in work that he or she could not possibly reproduce without outside assistance is obliged, out of consideration of fairness to other students, to report the case to the Associate Dean of the Faculty. See the Academic Discipline Process.
+
+\vspace*{.15in}
+
+
+\noindent \textbf{Learning and Working Environment:}
+The Faculty of Arts is committed to ensuring that all students, faculty and staff are able to work and study in an environment that is safe and free from discrimination and harassment. It does not tolerate behaviour that undermines that environment. The department urges anyone who feels that this policy is being violated to:
+\begin{itemize}
+
+\item Discuss the matter with the person whose behaviour is causing concern; or
+\item If that discussion is unsatisfactory, or there is concern that direct discussion is inappropriate or threatening, discuss it with the
+Chair of the Department.
+\end{itemize}
+
+For additional advice or assistance regarding this policy you may contact the Office of the Student Ombuds. Information about the University of Alberta Discrimination and Harassment Policy and Procedures is described in UAPPOL.
+\vspace*{.15in}
+
+
+\noindent \textbf{Recording of Lectures:}
+Audio, video, or photographic recording of lectures, labs, seminars or any other teaching environment by students is allowed only with the prior written consent of the instructor or as a part of an approved accommodation plan. Naturally, in an online class, much of the course material is already recorded; any recorded material is to be used solely for personal study, and is not to be used or distributed for any other purpose without prior written consent from the instructor. You are prohibited from re-distributing any course materials as described above; this includes uploading slides and other materials to websites such as CourseHero.
+
+\vspace*{.15in}
+
+
+\noindent \textbf{Attendance, Absences, and Missed Grade Components:}
+Regular attendance is essential for optimal performance in any course. In cases of potentially excusable absences due to illness or domestic affliction, notify your instructor by e-mail within two days. Regarding absences that may be excusable and procedures for addressing course components missed as a result, consult the Calendar regarding Attendance and Examinations sections of the University Calendar. Be aware that unexcused absences will result in partial or total loss of the grade for the “attendance and participation” component(s) of a course, as well as for any assignments that are not handed in or completed as a result. It is your responsibility to make up work and learn material for missed classes.
+In an online course, “attendance” begins to feel less relevant; however, be sure to read all communication around this course - including emails from the instructor, posts to the discussion forums, and documents posted on the course website. Recognize that those who choose not to read communication surrounding this course must assume whatever risks are involved.
+
+\vspace*{.15in}
+
+
+\noindent \textbf{Policy for Late Assignments:}
+Except in extenuating circumstances, there are no redos for missed assignments. If you present a legitimate reason for missing an assignment, the weight for that assignment will be redistributed to the remaining (that is, future) grade items in the course. If you have concerns with the timing of any of the assignments, email me as soon as possible.
+
+ \typeout{}
+\bibliographystyle{unsrt}
+\bibliography{citations}
+
+%%%%%% THE END 
+\end{document} 
+
+
+
+paa pickle prank pop captain tank clang kong casanova

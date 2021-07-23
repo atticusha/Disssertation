@@ -1,0 +1,192 @@
+$PV.Move
+[1] FALSE
+
+$PV.Qual
+[1] FALSE
+
+$PV.Position
+[1] FALSE
+
+$PV.StartFin
+[1] FALSE
+
+$PV.Discourse
+[1] FALSE
+
+$PV.Time
+[1] FALSE
+
+$PV.WantCan
+[1] FALSE
+
+$AI.do
+[1] FALSE
+
+$AI.state
+[1] FALSE
+
+$AI.speech
+[1] FALSE
+
+$AI.cooking
+[1] FALSE
+
+$AI.reflexive
+[1] FALSE
+
+$AI.health
+[1] FALSE
+
+$AI.money.count
+[1] FALSE
+
+$AI.plural
+[1] FALSE
+
+$AI.pray
+[1] FALSE
+
+$AI.heat.fire
+[1] FALSE
+
+$RdplS
+[1] FALSE
+
+$RdplW
+[1] FALSE
+
+$auto.vai.2
+[1] FALSE
+
+$auto.vai.5
+[1] FALSE
+
+$auto.vai.6
+[1] FALSE
+
+$auto.vai.12
+[1] FALSE
+
+$auto.na.5.actor
+[1] FALSE
+
+$auto.vai.11
+[1] FALSE
+
+$auto.vai.9
+[1] FALSE
+
+$auto.nda.1.actor
+[1] FALSE
+
+$auto.vai.3
+[1] FALSE
+
+$auto.vai.13
+[1] FALSE
+
+$auto.vai.4
+[1] FALSE
+
+$auto.na.7.actor
+[1] FALSE
+
+$auto.vai.1
+[1] FALSE
+
+$auto.vai.8
+[1] FALSE
+
+$auto.nda.3.actor
+[1] FALSE
+
+$auto.vai.7
+[1] FALSE
+
+$auto.vai.10
+[1] FALSE
+
+$auto.na.1.actor
+[1] FALSE
+
+$auto.na.2.actor
+[1] FALSE
+
+$auto.na.3.actor
+[1] FALSE
+
+$auto.na.4.actor
+[1] FALSE
+
+$auto.na.6.actor
+[1] FALSE
+
+$NA.persons.actor
+[1] FALSE
+
+$Sg.actor
+[1] FALSE
+
+$Pron.actor
+[1] FALSE
+
+$Pl.actor
+[1] FALSE
+
+$D.actor
+[1] FALSE
+
+$NDA.Relations.actor
+[1] FALSE
+
+$Err.Orth.actor
+[1] FALSE
+
+$Pers.actor
+[1] FALSE
+
+$Px1Sg.actor
+[1] FALSE
+
+$Dem.actor
+[1] FALSE
+
+$Prox.actor
+[1] FALSE
+
+$Med.actor
+[1] FALSE
+
+$Incl.actor
+[1] FALSE
+
+$Obv.actor
+[1] FALSE
+
+$NA.beast.of.burden.actor
+[1] FALSE
+
+$Px3Sg.actor
+[1] FALSE
+
+$NA.food.actor
+[1] FALSE
+
+$Emph.actor
+[1] FALSE
+
+$Indef.actor
+[1] FALSE
+
+$actor.3
+[1] FALSE
+
+$actor.1
+[1] FALSE
+
+$actor.2
+[1] FALSE
+
+$actor.4
+[1] FALSE
+

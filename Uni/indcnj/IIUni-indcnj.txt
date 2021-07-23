@@ -1,0 +1,41 @@
+
+Univariate analysis of categorical variables:
+
+Dependents (2):  TopOrder = Cnj, Ind 
+
+Independents (1): PV.StartFin, PV.Qual, II.sense, II.natural.land, II.weather, auto.vii.1, auto.vii.2, auto.ni.3.actor, auto.vii.3, auto.vii.4, auto.vii.5, I.actor, Sg.actor, 
+N.actor, NI.object.actor, Dem.actor, Pron.actor, Err.Orth.actor, Med.actor, NI.nominal.actor, Pl.actor, actor.3, actor.4
+
+
+                   N     alpha.X2        uc.12        uc.21 Cnj Ind
+PV.StartFin       25    0.3783116  0.006446313  0.001841127   0   0
+PV.Qual           22    0.2922102   0.01000524  0.002591801   0   0
+II.sense         270 7.323602e-08    0.0334385   0.03989729   -   +
+II.natural.land  192    0.2764027  0.001810017  0.001928487   0   0
+II.weather       176 1.454449e-05   0.02843749   0.02915007   +   -
+auto.vii.1       270    0.5303636 0.0005846264 0.0006975496   0   0
+auto.vii.2       160    0.9407567 4.397929e-05 4.306898e-05   0   0
+auto.ni.3.actor   87    0.3265345  0.002511989  0.001733653   0   0
+auto.vii.3        78   0.06856172  0.007589495  0.004882009   0   0
+auto.vii.4        66   0.09275004  0.007372621  0.004244635   0   0
+auto.vii.5        58   0.04653522   0.01325793  0.006988696   +   -
+I.actor          145    0.3341327  0.001633906   0.00152154   0   0
+Sg.actor         124    0.8482596 0.0001461249 0.0001249079   0   0
+N.actor          108    0.3435328  0.001896144  0.001495492   0   0
+NI.object.actor   96    0.2039272  0.003746927  0.002750804   0   0
+Dem.actor         37    0.9839005 0.0001595287 6.105468e-05   0   0
+Pron.actor        37    0.9839005 0.0001595287 6.105468e-05   0   0
+Err.Orth.actor    25    0.1450095   0.01228244  0.003507979   0   0
+Med.actor         25    0.6016509  0.002567344 0.0007332573   0   0
+NI.nominal.actor  23   0.02429342   0.02755456  0.007385145   -   +
+Pl.actor          21    0.1104895   0.01656425  0.004140118   0   0
+actor.3          601    0.5039704  0.001963084 0.0009719784   0   0
+actor.4           45    0.4806353  0.002495891  0.001100661   0   0
+
+
+Association measures:
+  statistic.12 ~ statistic(1|2) ~ statistic(independent|dependent) [ ~ statistic(R|C) ]
+  statistic.21 ~ statustic(2|1) ~ statistic(dependent|independent) [ ~ statistic(C|R) ]
+
+Posthoc cellwise chi-squared analysis:  std.pearson.residuals.sign 
+

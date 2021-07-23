@@ -1,0 +1,65 @@
+$TA.religion
+[1] TRUE
+--
+$Med.actor
+[1] TRUE
+--
+$pn.3Sg.actor
+[1] TRUE
+--
+$iskwêw.actor
+[1] TRUE
+--
+$goal.5
+[1] TRUE
+--
+$iskwêw.goal
+[1] TRUE
+--
+$kêhtê.aya.goal
+[1] TRUE
+--
+$nôsisim.goal
+[1] TRUE
+--
+$misatim.goal
+[1] TRUE
+--
+$pn.3Sg.goal
+[1] TRUE
+--
+$kôhtâwînaw.goal
+[1] TRUE
+--
+$mostos.goal
+[1] TRUE
+--
+$nisîmis.goal
+[1] TRUE
+--
+$NA.money.count.goal
+[1] TRUE
+--
+$ninâpêm.goal
+[1] TRUE
+--
+$ninîkihik.goal
+[1] TRUE
+--
+$aya.goal
+[1] TRUE
+--
+$kisêyiniw.goal
+[1] TRUE
+--
+$niwîkimâkan.goal
+[1] TRUE
+--
+$nôhkom.goal
+[1] TRUE
+--
+$sôniyâw.goal
+[1] TRUE
+--
+$wâpos.goal
+[1] TRUE

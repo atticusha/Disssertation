@@ -1,0 +1,89 @@
+
+Univariate analysis of categorical variables:
+
+Dependents (2):  OrderType = eCnj, Ind 
+
+Independents (1): PV.Position, PV.Move, PV.Time, PV.StartFinWantCan, PV.Qual, PV.Discourse, PV.WantCan, PV.StartFin, TI.do, TI.cognitive, TI.speech, TI.money.count, RdplW, 
+RdplS, auto.vti.1, auto.vti.4, auto.ni.3.goal, auto.vti.2, auto.na.5.actor, auto.vti.3, auto.ni.10.goal, auto.ni.9.goal, auto.ni.2.goal, auto.ni.6.goal, 
+auto.nda.1.actor, auto.ni.7.goal, auto.na.7.actor, auto.ni.1.goal, auto.ni.4.goal, auto.ndi.1.goal, auto.ni.5.goal, auto.ni.8.goal, auto.na.1.actor, 
+NA.persons.actor, Pron.actor, Pers.actor, Sg.actor, Err.Orth.actor, Pl.actor, D.actor, NDA.Relations.actor, Px1Sg.actor, Dem.actor, Incl.actor, Prox.actor, 
+actor.3, actor.1, actor.2, actor.4, goal.3, Sg.goal, NI.object.goal, Dem.goal, Pron.goal, Pl.goal, Med.goal, Err.Orth.goal, Prox.goal, NI.nominal.goal, 
+NI.natural.force.goal, NI.nature.plants.goal, NI.place.goal, Px3Sg.goal, D.goal, NDI.Body.goal, Px1Sg.goal, Px3Pl.goal
+
+
+                         N     alpha.X2        uc.12        uc.21 eCnj Ind
+PV.Position            129   0.07925552  0.003284514 0.0009716327    0   0
+PV.Move                101    0.8051974 0.0001446547 3.561965e-05    0   0
+PV.Time                 79 4.305632e-15   0.09175362   0.01872064    -   +
+PV.StartFinWantCan      76    0.3568813  0.001560245 0.0003089472    0   0
+PV.Qual                 70  0.001698444   0.01797477   0.00333896    +   -
+PV.Discourse            69 5.285324e-06   0.03998864  0.007345382    +   -
+PV.WantCan              47   0.09488368  0.006907739 0.0009372305    0   0
+PV.StartFin             29    0.6522025  0.001317583 0.0001210551    0   0
+TI.do                 1307 1.230774e-33    0.0418083   0.04297371    +   -
+TI.cognitive          1047 1.627122e-27   0.03429279   0.03439892    -   +
+TI.speech              187  0.001797678  0.007496994  0.002904212    -   +
+TI.money.count          21   0.07683236   0.01800687  0.001268976    0   0
+RdplW                   51    0.3944824  0.001952026 0.0002826383    0   0
+RdplS                   37    0.4164512  0.002553111 0.0002858809    0   0
+auto.vti.1            1218    0.1651196  0.000575334   0.00059047    0   0
+auto.vti.4             947 9.470835e-08  0.008522994  0.008326299    -   +
+auto.ni.3.goal         591   0.09233681  0.001089218 0.0008722586    0   0
+auto.vti.2             223  3.47604e-09   0.02544647   0.01115291    +   -
+auto.na.5.actor        211 0.0001878188  0.009747585  0.004111132    -   +
+auto.vti.3             156    0.4637052 0.0005725565  0.000194723    0   0
+auto.ni.10.goal         65 5.877983e-06    0.0418875  0.007343453    +   -
+auto.ni.9.goal          60  0.009983186   0.01383263  0.002277415    +   -
+auto.ni.2.goal          59 0.0003657968   0.02729264  0.004434433    +   -
+auto.ni.6.goal          43     0.567347  0.001235996 0.0001561848    0   0
+auto.nda.1.actor        39    0.6899568 0.0007963103 9.303256e-05    0   0
+auto.ni.7.goal          37     0.590639  0.001273996 0.0001426539    0   0
+auto.na.7.actor         35    0.8347976 0.0003980046 4.260802e-05    0   0
+auto.ni.1.goal          24   0.08127818   0.01528611  0.001202666    0   0
+auto.ni.4.goal          23    0.5983254  0.002053873  0.000156028    0   0
+auto.ndi.1.goal         18    0.3981773  0.005764127 0.0003574666    0   0
+auto.ni.5.goal          18    0.2783089  0.007995043 0.0004958186    0   0
+auto.ni.8.goal          18    0.7168819  0.001738855 0.0001078364    0   0
+auto.na.1.actor         14    0.5332124  0.004824764 0.0002425711    0   0
+NA.persons.actor       263  0.002776962  0.005426818  0.002662052    -   +
+Pron.actor             176 0.0003210809   0.01032209  0.003829477    -   +
+Pers.actor             137 0.0002776724    0.0126814  0.003921991    -   +
+Sg.actor               110    0.5271389  0.000585127 0.0001536745    0   0
+Err.Orth.actor          71    0.8261507 0.0001796114 3.373479e-05    0   0
+Pl.actor                66        0.432  0.001381405 0.0002450894    0   0
+D.actor                 46    0.9920708 5.682431e-05 7.578609e-06    0   0
+NDA.Relations.actor     46    0.9920708 5.682431e-05 7.578609e-06    0   0
+Px1Sg.actor             42            1 1.456116e-06 1.805604e-07    0   0
+Dem.actor               33    0.6669307  0.001038691 0.0001060166    0   0
+Incl.actor              30    0.2012144  0.006428421 0.0006071841    0   0
+Prox.actor              21    0.6424045  0.001911101 0.0001346787    0   0
+actor.3               1128 2.006203e-18   0.02226914   0.02265727    +   -
+actor.1               1086 3.578199e-14    0.0165757   0.01675394    -   +
+actor.2                200 1.442279e-20   0.06169669   0.02506297    -   +
+actor.4                 58 7.451973e-08   0.07082322   0.01135322    +   -
+goal.3                  16    0.6285385  0.002901407 0.0001631141    0   0
+Sg.goal                739   0.02488933  0.001709983  0.001523268    +   -
+NI.object.goal         670   0.02514016   0.00178567  0.001521483    +   -
+Dem.goal               335    0.7682105 6.333609e-05 3.641691e-05    0   0
+Pron.goal              335    0.7682105 6.333609e-05 3.641691e-05    0   0
+Pl.goal                229 8.679997e-09    0.0236075   0.01053838    +   -
+Med.goal               203     0.216603  0.001224187 0.0005025302    0   0
+Err.Orth.goal          200 3.071516e-06   0.01698591  0.006900165    +   -
+Prox.goal              131    0.3878749  0.000873603 0.0002613927    0   0
+NI.nominal.goal         98    0.2953665   0.00162055 0.0003900157    0   0
+NI.natural.force.goal   71  0.001301012    0.0186566  0.003504101    +   -
+NI.nature.plants.goal   61 0.0005507386   0.02479936  0.004136398    +   -
+NI.place.goal           34    0.0291298   0.01679478  0.001756221    +   -
+Px3Sg.goal              25    0.8608298 0.0005093792 4.144411e-05    0   0
+D.goal                  22     0.142008     0.012107  0.000886632    0   0
+NDI.Body.goal           16   0.04362269   0.03112916  0.001750049    +   -
+Px1Sg.goal              15   0.01862236   0.03675281  0.001957713    -   +
+Px3Pl.goal              13  0.007237018   0.08235897  0.003890961    +   -
+
+
+Association measures:
+  statistic.12 ~ statistic(1|2) ~ statistic(independent|dependent) [ ~ statistic(R|C) ]
+  statistic.21 ~ statustic(2|1) ~ statistic(dependent|independent) [ ~ statistic(C|R) ]
+
+Posthoc cellwise chi-squared analysis:  std.pearson.residuals.sign 
+

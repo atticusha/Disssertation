@@ -1,0 +1,92 @@
+
+
+
+As for the Imperative, \citet{Wolfart1973} more or less describes the Order as a way of encoding the imperative mood. As an imperative forms, it targets only sec As \citet{Bloomfield1946}, \citet{Wolfart1973} describes two main modes: the Immediate and Delayed imperatives.  
+
+Because they mark only for command forms, they always involve a second person participant. As a result, VIIs are unable to take the Imperative Order as they are intransitive forms that take only 3rd person and obviative actors. The Imperative Order comes in two modes: the Immediate and the Delayed. 
+
+
+\FloatBarrier
+\begin{table}
+  \centering
+  \footnotesize
+  \begin{tabular}{lll}
+    \toprule
+     & Immediate & Delayed           \\
+    \midrule
+2\textsc{sg}  & mîciso (`eat!')   & mîcisohkan (`eat later!') \\
+21\textsc{pl}  & mîcisotân (`let us all eat!')   & mîcisohkahk (`let us all eat later!')\\
+2\textsc{pl}  & mîcisok  (`you all, eat!') & mîcisohkêk (`you all, eat later!')\\
+
+    \bottomrule
+  \end{tabular}
+  \caption{
+    VAI Imperative Paradigm.\label{tab:vaiimppara}
+  }
+\end{table}
+
+\begin{table}
+  \centering
+  \footnotesize
+  \begin{tabular}{lll}
+    \toprule
+     & Immediate & Delayed           \\
+    \midrule
+2\textsc{sg}  & wâpata (look at it!)  & wâpata\textbf{hkan }(look at it later!) \\
+21\textsc{pl}  & wâpata\textbf{tân} (let us all look at it!)  & wâpata\textbf{hkahk} (let us all look at it later!) \\
+2\textsc{pl}  & wâpata\textbf{k} (you all, look at it!) & wâpata\textbf{hkêk} (you, all look at it later!) \\
+
+    \bottomrule
+  \end{tabular}
+  \caption{
+    VTI Imperative Paradigm.\label{tab:vtiorder2}
+  }
+\end{table}
+
+
+The Immediate Imperative describes an immediate command and is marked with no suffix, a \{-tân\} suffix, and a \{-k\} suffix for second person singular, first person inclusive, and second person plural, respectively. The composition of the Imperative Order suffixes are notably related to the Conjunct Order's, as mentioned by \citet{Wolfart1973}. Whereas the Conjunct uses a \{-y-\} suffix to mark local participants, the Delayed Imperative uses an \{-hk-\} morpheme for this purpose. Next, both the Delayed Imperative and Conjunct forms use \{-a-\} theme sign for both second person singular and first person inclusive forms, and an \{-ê-\} theme sign for the second person plural. The final elements are similarly identical: \{-n-\} for second person singular, \{-hk-\} for first person inclusive, and \{-k-\} for second person plural. This is most clear in the VTA paradigm, as seen in Table \ref{tab:vtaimp}.
+
+
+
+\begin{table}
+  \centering
+  \footnotesize
+  \begin{tabular}{lll}
+    \toprule
+     & Conjunct & Delayed Imperative           \\
+    \midrule
+2\textsc{sg}$\rightarrow$1\textsc{sg} & ê-mowi\textbf{y}an (`eat me!') & mowî\textbf{hk}an (`eat me later!')\\
+2\textsc{sg}$\rightarrow$1\textsc{pl} & ê-mowi\textbf{y}ahk (`eat us!')  & mowî\textbf{hk}âhk (`eat us later!') \\
+2\textsc{sg}$\rightarrow$3\textsc{sg} & ê-mowat (`eat him/her!') & mowâ\textbf{hk}an (`eat him/her later!') \\
+2\textsc{sg}$\rightarrow$3\textsc{pl} & ê-mowacik (`eat them!') & mowâ\textbf{hk}anik (`eat them later!') \\
+21\textsc{pl}$\rightarrow$3\textsc{sg} & ê-mowa\textbf{y}ahk (`let us all, eat him/her!') & mowâ\textbf{hk}ahk (`let us all, eat him/her later!')\\
+21\textsc{pl}$\rightarrow$3\textsc{pl} & ê-mowa\textbf{y}ahkok (`let us all, eat them!') & mowâhka\textbf{hk}ok (`let us all, eat them later!') \\
+2\textsc{pl}$\rightarrow$1\textsc{sg}  & ê-mowi\textbf{y}êk (`you all, eat me!') & mowî\textbf{hk}êk (`you all, eat me later!') \\
+2\textsc{pl}$\rightarrow$1\textsc{pl}  & ê-mowi\textbf{y}âhk (`you all, eat us!')& mowî\textbf{hk}âhk (`you all, eat us later!')\\
+2\textsc{pl}$\rightarrow$3\textsc{sg}  & ê-mowa\textbf{y}êk (`you all, eat him/her!') & mowâ\textbf{hk}êk (`you all, eat him/her later!') \\
+2\textsc{pl}$\rightarrow$3\textsc{pl}  & ê-mowa\textbf{y}akok (`you all, eat them!') & mowâ\textbf{hk}êkok (`you all, eat them later!') \\
+    \bottomrule
+  \end{tabular}
+  \caption{
+    VTA Conjunct and Delayed Imperative Paradigm.\label{tab:vtaimp}
+  }
+\end{table}
+
+Second person singular acting on third person (singular and plural) do not show a clear replacement of conjunct \{-y-\} for the delayed imperative \{-hk-\}, but this pattern is mostly followed otherwise (excepting regressive vowel lengthening caused by the /h/ in the delayed imperative). The morphological differences between the Delayed Imperative and the Conjunct are significantly less than those of the Independent and Conjunct as seen in Table \ref{tab:vtiimp2}, where the Delayed Imperative can be constructed by adding \{-ôhk-\} after VTI theme morph \{-am\} the.  In this way, one may consider the Delayed mode of the Imperative as a set of Conjunct Order forms. Although structurally this is an enticing option (especially for forms including only speech act participants), one would expect the Delayed Imperative forms to be able to take the morphological modes of the Conjunct as described above. This is not something that is described in any literature, and it is difficult to imagine what a Subjunctive Delayed Imperative would actually mean (as the Subjunctive represents a hypothetical proposition in Nêhiyawêwin and it is unclear what a hypothetical command might be). Indeed, if we analyze the Imperative Order as something primarily encoding mood, it would seem unlikely that one can add further modes such as hypotheticality to an Imperative Order form. Finally, although Imperative endings resemble the Conjunct endings of the same person, they \textit{cannot} take conjunct preverbs such as \{ê-\} or \{kâ-\}. As a result, I will not consider the Delayed Imperative as a form of Conjunct. 
+
+\begin{table}
+  \centering
+  \footnotesize
+\begin{tabular}{lllll}
+    \toprule
+     & Independent    & Immediate Imperative & Conjunct      & Delayed Imperative        \\
+    \midrule
+2sg  & kiwapahtên     & wâpahta        & ê-wâpahtaman  & wâpahtamôhkan  \\
+21pl & kiwâpahtênânaw & wâpahtêtan     & ê-wâpahtamahk & wâpahtamôhkahk \\
+2pl  & kiwâpahtênâwâw & wâpahtamok     & ê-wâpahtamêhk & wâpahtamôhkêk        \\
+    \bottomrule
+  \end{tabular}
+  \caption{
+    Sample of VTI Paradigm Comparing the Independent, Conjunct, and the Imperative. \label{tab:vtiimp2}
+  }
+\end{table}

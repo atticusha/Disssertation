@@ -1,0 +1,228 @@
+$PV.Time
+[1] FALSE
+
+$PV.Move
+[1] FALSE
+
+$PV.Position
+[1] FALSE
+
+$PV.Discourse
+[1] FALSE
+
+$PV.Qual
+[1] FALSE
+
+$PV.WantCan
+[1] FALSE
+
+$PV.StartFin
+[1] FALSE
+
+$TA.speech
+[1] FALSE
+
+$TA.do
+[1] FALSE
+
+$TA.cognitive
+[1] FALSE
+
+$TA.food
+[1] FALSE
+
+$TA.money.count
+[1] FALSE
+
+$TA.allow
+[1] FALSE
+
+$auto.vta.6
+[1] FALSE
+
+$auto.vta.3
+[1] FALSE
+
+$auto.vta.5
+[1] FALSE
+
+$auto.vta.1
+[1] FALSE
+
+$auto.na.5.goal
+[1] FALSE
+
+$auto.nda.1.goal
+[1] FALSE
+
+$auto.na.5.actor
+[1] FALSE
+
+$auto.vta.4
+[1] FALSE
+
+$auto.vta.2
+[1] FALSE
+
+$auto.na.7.goal
+[1] FALSE
+
+$auto.nda.1.actor
+[1] FALSE
+
+$auto.na.3.goal
+[1] FALSE
+
+$auto.na.2.goal
+[1] FALSE
+
+$auto.na.7.actor
+[1] FALSE
+
+$auto.nda.3.goal
+[1] FALSE
+
+$auto.na.1.goal
+[1] FALSE
+
+$auto.na.6.goal
+[1] FALSE
+
+$auto.na.1.actor
+[1] FALSE
+
+$auto.nda.3.actor
+[1] FALSE
+
+$auto.vta.7
+[1] FALSE
+
+$A.actor
+[1] FALSE
+
+$N.actor
+[1] FALSE
+
+$NA.persons.actor
+[1] FALSE
+
+$Sg.actor
+[1] FALSE
+
+$D.actor
+[1] FALSE
+
+$Pron.actor
+[1] FALSE
+
+$NDA.Relations.actor
+[1] FALSE
+
+$Px1Sg.actor
+[1] FALSE
+
+$Err.Orth.actor
+[1] FALSE
+
+$Dem.actor
+[1] FALSE
+
+$Pers.actor
+[1] FALSE
+
+$Pl.actor
+[1] FALSE
+
+$Obv.actor
+[1] FALSE
+
+$Prox.actor
+[1] FALSE
+
+$Med.actor
+[1] FALSE
+
+$Incl.actor
+[1] FALSE
+
+$actor.3
+[1] FALSE
+
+$actor.1
+[1] FALSE
+
+$actor.2
+[1] FALSE
+
+$actor.4
+[1] FALSE
+
+$goal.3
+[1] FALSE
+
+$goal.4
+[1] FALSE
+
+$goal.1
+[1] FALSE
+
+$goal.2
+[1] FALSE
+
+$NA.persons.goal
+[1] FALSE
+
+$Sg.goal
+[1] FALSE
+
+$Obv.goal
+[1] FALSE
+
+$Pron.goal
+[1] FALSE
+
+$D.goal
+[1] FALSE
+
+$NDA.Relations.goal
+[1] FALSE
+
+$Pl.goal
+[1] FALSE
+
+$Dem.goal
+[1] FALSE
+
+$awa.goal
+[1] FALSE
+
+$Err.Orth.goal
+[1] FALSE
+
+$Px1Sg.goal
+[1] FALSE
+
+$Prox.goal
+[1] FALSE
+
+$NA.beast.of.burden.goal
+[1] FALSE
+
+$Med.goal
+[1] FALSE
+
+$Px3Sg.goal
+[1] FALSE
+
+$Pers.goal
+[1] FALSE
+
+$NA.food.goal
+[1] FALSE
+
+$Px3Pl.goal
+[1] FALSE
+
+$Px12Pl.goal
+[1] FALSE
+

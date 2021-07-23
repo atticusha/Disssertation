@@ -1,0 +1,34 @@
+
+
+$PV.StartFinWantCan
+[1] TRUE
+
+$PV.StartFin
+[1] TRUE
+
+$PV.Position
+[1] TRUE
+
+$II.plural
+[1] TRUE
+
+$auto.ni.6.actor
+[1] TRUE
+
+$auto.vai.1
+[1] TRUE
+
+$auto.ni.7.actor
+[1] TRUE
+
+$auto.vai.9
+[1] TRUE
+
+$auto.vii.6
+[1] TRUE
+
+$Med.actor
+[1] TRUE
+
+$NI.place.actor
+[1] TRUE

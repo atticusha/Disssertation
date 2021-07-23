@@ -1,0 +1,29 @@
+
+Univariate analysis of categorical variables:
+
+Dependents (2):  OrderType = eCnj, Ind 
+
+Independents (1): PV.e, PV.StartFin, PV.ati, PV.Move, PV.pe, PV.Qual, PV.Position, PV.ohci, PV.isi, PV.Discourse, RdplS, RdplW
+
+
+               N      alpha.X2        uc.12        uc.21 eCnj Ind
+PV.e         425 6.923551e-141    0.9999998    0.9999998    +   -
+PV.StartFin   22     0.1751085   0.01451322  0.003379054    0   0
+PV.ati        20     0.1154049   0.02110983  0.004567459    0   0
+PV.Move       20             1 6.183714e-05 1.337949e-05    0   0
+PV.pe         18             1  1.64075e-05 3.271734e-06    0   0
+PV.Qual       18     0.1887069   0.01680639  0.003351276    0   0
+PV.Position   16      0.100017    0.0228827  0.004162064    0   0
+PV.ohci       13     0.2155006   0.01741527  0.002689147    0   0
+PV.isi        10     0.2031143   0.03059548  0.003830808    0   0
+PV.Discourse  10     0.2031143   0.03059548  0.003830808    0   0
+RdplS         13     0.5911759  0.005816928 0.0008982106    0   0
+RdplW         13      0.258882   0.01819978  0.002810287    0   0
+
+
+Association measures:
+  statistic.12 ~ statistic(1|2) ~ statistic(independent|dependent) [ ~ statistic(R|C) ]
+  statistic.21 ~ statustic(2|1) ~ statistic(dependent|independent) [ ~ statistic(C|R) ]
+
+Posthoc cellwise chi-squared analysis:  std.pearson.residuals.sign 
+

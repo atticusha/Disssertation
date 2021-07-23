@@ -1,0 +1,149 @@
+$AI.heat.fire
+[1] TRUE
+--
+$auto.ni.3.goal
+[1] TRUE
+--
+$auto.ni.3.actor
+[1] TRUE
+--
+$auto.na.4.actor
+[1] TRUE
+--
+$auto.na.6.actor
+[1] TRUE
+--
+$auto.ni.6.goal
+[1] TRUE
+--
+$nâpêw.actor
+[1] TRUE
+--
+$NA.food.actor
+[1] TRUE
+--
+$nôhkom.actor
+[1] TRUE
+--
+$kisêyiniw.actor
+[1] TRUE
+--
+$niya.actor
+[1] TRUE
+--
+$nîsta.actor
+[1] TRUE
+--
+$wiya.actor
+[1] TRUE
+--
+$niyanân.actor
+[1] TRUE
+--
+$aya.actor
+[1] TRUE
+--
+$iskwêw.actor
+[1] TRUE
+--
+$Indef.actor
+[1] TRUE
+--
+$awiyak.actor
+[1] TRUE
+--
+$Px3Sg.actor
+[1] TRUE
+--
+$kêhtê.aya.actor
+[1] TRUE
+--
+$kikâwînaw.actor
+[1] TRUE
+--
+$wîsta.actor
+[1] TRUE
+--
+$awâsis.actor
+[1] TRUE
+--
+$pn.3Pl.actor
+[1] TRUE
+--
+$nisîmis.actor
+[1] TRUE
+--
+$nôcikwêsiw.actor
+[1] TRUE
+--
+$nîstanân.actor
+[1] TRUE
+--
+$NI.object.actor
+[1] TRUE
+--
+$cistêmâw.actor
+[1] TRUE
+--
+$nimosôm.actor
+[1] TRUE
+--
+$nitânis.actor
+[1] TRUE
+--
+$nôsisim.actor
+[1] TRUE
+--
+$Px12Pl.actor
+[1] TRUE
+--
+$kîkway.actor
+[1] TRUE
+--
+$kôhtâwînaw.actor
+[1] TRUE
+--
+$ninâpêm.actor
+[1] TRUE
+--
+$wîstawâw.actor
+[1] TRUE
+--
+$nitawâsimis.actor
+[1] TRUE
+--
+$nêhiyaw.actor
+[1] TRUE
+--
+$Px1Pl.actor
+[1] TRUE
+--
+$nikosis.actor
+[1] TRUE
+--
+$niwîkimâkan.actor
+[1] TRUE
+--
+$left.GOAL.goal
+[1] TRUE
+--
+$Pron.goal
+[1] TRUE
+--
+$Dem.goal
+[1] TRUE
+--
+$ôma.goal
+[1] TRUE
+--
+$kîkway.goal
+[1] TRUE
+--
+$NI.nominal.goal
+[1] TRUE
+--
+$Pl.goal
+[1] TRUE
+--
+$Prox.goal
+[1] TRUE

@@ -1,0 +1,96 @@
+
+Univariate analysis of categorical variables:
+
+Dependents (2):  OrderType = eCnj, kaaCnj, Other 
+
+Independents (1): PV.Time, PV.Move, PV.Position, PV.Discourse, PV.Qual, PV.WantCan, PV.StartFin, TA.do, TA.speech, TA.cognitive, TA.food, TA.money.count, TA.allow, RdplW, 
+RdplS, auto.vta.6, auto.vta.3, auto.vta.1, auto.vta.5, auto.na.5.goal, auto.nda.1.goal, auto.vta.4, auto.na.5.actor, auto.vta.2, auto.na.7.goal, 
+auto.nda.1.actor, auto.na.2.goal, auto.na.3.goal, auto.na.7.actor, auto.nda.3.goal, auto.na.1.goal, auto.na.1.actor, auto.na.6.goal, auto.nda.3.actor, 
+auto.vta.7, NA.persons.actor, Sg.actor, D.actor, NDA.Relations.actor, Pron.actor, Px1Sg.actor, Err.Orth.actor, Dem.actor, Obv.actor, Pl.actor, Pers.actor, 
+Prox.actor, Med.actor, actor.3, actor.1, actor.2, actor.4, goal.3, goal.4, goal.1, goal.2, NA.persons.goal, Obv.goal, Sg.goal, Pron.goal, D.goal, 
+NDA.Relations.goal, Pl.goal, Dem.goal, Err.Orth.goal, Prox.goal, NA.beast.of.burden.goal, Px1Sg.goal, Med.goal, Px3Sg.goal, Pers.goal, NA.food.goal, 
+Px3Pl.goal
+
+
+                           N      alpha.X2        uc.12        uc.21 eCnj kaaCnj Other
+PV.Time                  197 3.911144e-224    0.4814332    0.1447402    -      -     +
+PV.Move                  163     0.3764032  0.001733846 0.0004738348    0      0     0
+PV.Position              145  2.558142e-76    0.2121766   0.05347014    -      -     +
+PV.Discourse             124   0.001063257    0.0207402  0.004395308    0      +     -
+PV.Qual                   71     0.1539733   0.00650445 0.0009577943    0      0     0
+PV.WantCan                57     0.6847246  0.001953071 0.0001737862    0      0     0
+PV.StartFin               41     0.7408339  0.001514272 0.0001463046    0      0     0
+TA.do                    785   0.002256485  0.004169606  0.002892547    +      -     0
+TA.speech                753  3.016966e-16   0.02368483   0.01618594    -      +     0
+TA.cognitive             677  4.302917e-05   0.00749137  0.004872018    +      -     0
+TA.food                  106    0.05833127  0.007294905  0.001389417    +      0     0
+TA.money.count            62     0.2778891  0.004312583 0.0005778426    0      0     0
+TA.allow                  34    0.04650598   0.01969708  0.001598203    +      0     0
+RdplW                     56     0.2101255  0.008266119 0.0009204164    0      0     0
+RdplS                     51   0.003520995   0.02786967  0.003203037    +      -     0
+auto.vta.6               925  2.417355e-08   0.01102698  0.008079347    -      +     0
+auto.vta.3               532  7.777794e-05  0.008043904  0.004626796    +      -     0
+auto.vta.1               363    0.02092991  0.003716952  0.001734778    -      0     +
+auto.vta.5               346    0.04577408  0.003101916  0.001386152    0      0     +
+auto.na.5.goal           334     0.3562405  0.001090955 0.0004781899    0      0     0
+auto.nda.1.goal          147   0.009098065  0.009652854  0.002407812    +      -     0
+auto.vta.4               133  0.0001001785   0.01987093  0.004697256    +      -     -
+auto.na.5.actor          122     0.7582564 0.0006019627 0.0001325668    0      0     0
+auto.vta.2               107   0.007468891   0.01279861  0.002585807    +      0     -
+auto.na.7.goal            90     0.2867666  0.003286867 0.0005719927    0      0     0
+auto.nda.1.actor          82     0.1151647   0.00737525  0.001215268    0      0     0
+auto.na.2.goal            63      0.128317  0.007512945  0.001019308    0      0     0
+auto.na.3.goal            62     0.4368289  0.003016096  0.000399025    0      0     0
+auto.na.7.actor           37     0.5056365   0.00443212 0.0003771166    0      0     0
+auto.nda.3.goal           26     0.1074326   0.01768214  0.001181926    +      0     0
+auto.na.1.goal            24     0.3201002  0.007390311  0.000446781    0      0     0
+auto.na.1.actor           23     0.4545761  0.007291815 0.0004408264    0      0     0
+auto.na.6.goal            22     0.1862282    0.0171354 0.0009612102    0      0     0
+auto.nda.3.actor          21     0.5058344  0.006692956 0.0003754415    0      0     0
+auto.vta.7                21     0.5317983  0.004921549 0.0002760743    0      0     0
+NA.persons.actor         179     0.5418679  0.001052392 0.0003053233    0      0     0
+Sg.actor                 178    0.02401916  0.006664728  0.001957136    +      0     -
+D.actor                  106    0.03880109  0.008999903  0.001805453    +      0     -
+NDA.Relations.actor      103    0.05695494  0.008155341  0.001600807    0      0     -
+Pron.actor                91     0.8431216 0.0004647196  8.15792e-05    0      0     0
+Px1Sg.actor               81    0.06884254  0.008801923   0.00145035    +      0     0
+Err.Orth.actor            62    0.02988754   0.01780985  0.002325953    0      0     -
+Dem.actor                 52     0.3868197  0.004533705 0.0005210548    0      0     0
+Obv.actor                 45     0.7819768  0.001176585 0.0001136783    0      0     0
+Pl.actor                  45    0.09348371   0.01441784  0.001500428    0      0     -
+Pers.actor                35     0.4704863   0.00463693 0.0003762363    0      0     0
+Prox.actor                28    0.04957554   0.01971411  0.001399885    0      +     0
+Med.actor                 24      0.217436   0.01309378  0.000791584    0      0     0
+actor.3                  993   8.04392e-16   0.02229671   0.01663568    +      -     -
+actor.1                  726  8.682223e-05  0.006366946  0.004282878    -      +     0
+actor.2                  171  9.240332e-24   0.06883952   0.01881283    -      0     +
+actor.4                  166      0.263994  0.002121861 0.0005746656    0      0     0
+goal.3                  1123  1.224984e-08   0.01121288  0.008515688    -      +     +
+goal.4                   587  2.339781e-08   0.01389052  0.008469706    +      -     -
+goal.1                   515  7.764769e-06   0.01085178   0.00624838    +      0     -
+goal.2                   184  4.301752e-05    0.0153671  0.004530645    -      +     0
+NA.persons.goal          463     0.2878099  0.001077296 0.0005755398    0      0     0
+Obv.goal                 295  3.343374e-05   0.01226904  0.005061779    +      -     0
+Sg.goal                  277   0.003127534  0.006858131  0.002642227    -      +     0
+Pron.goal                202     0.3097186  0.001735807 0.0005416968    0      0     0
+D.goal                   175     0.0012917   0.01186593  0.003372028    +      -     0
+NDA.Relations.goal       173   0.001855489   0.01130723  0.003186131    +      -     0
+Pl.goal                  165      0.200349  0.002634214 0.0007166635    0      0     0
+Dem.goal                 161    0.03034999  0.005826815  0.001549256    -      +     0
+Err.Orth.goal            142     0.4892381  0.001313246 0.0003207777    0      0     0
+Prox.goal                 96   0.002632653   0.01432016  0.002642915    -      +     0
+NA.beast.of.burden.goal   88    0.03603051  0.009670918  0.001682969    +      -     0
+Px1Sg.goal                83   0.002406437   0.02382579  0.003925929    +      0     -
+Med.goal                  64     0.2684439  0.005874026 0.0007571147    0      0     0
+Px3Sg.goal                48   0.004168382   0.02769833  0.003034159    +      -     0
+Pers.goal                 41    0.02444607   0.02083207  0.001933705    +      -     0
+NA.food.goal              23    0.03679964   0.02981013   0.00180217    +      -     0
+Px3Pl.goal                21     0.3143408   0.01011046 0.0005447704    0      0     0
+
+
+Association measures:
+  statistic.12 ~ statistic(1|2) ~ statistic(independent|dependent) [ ~ statistic(R|C) ]
+  statistic.21 ~ statustic(2|1) ~ statistic(dependent|independent) [ ~ statistic(C|R) ]
+
+Posthoc cellwise chi-squared analysis:  std.pearson.residuals.sign 
+

@@ -1,0 +1,56 @@
+$auto.nda.3.actor
+[1] TRUE
+--
+$auto.vti.6
+[1] TRUE
+--
+$auto.vti.5
+[1] TRUE
+--
+$Med.actor
+[1] TRUE
+--
+$iskwêw.actor
+[1] TRUE
+--
+$nôhkom.actor
+[1] TRUE
+--
+$kisêyiniw.actor
+[1] TRUE
+--
+$nâpêw.actor
+[1] TRUE
+--
+$wîstawâw.actor
+[1] TRUE
+--
+$askiy.goal
+[1] TRUE
+--
+$Px12Pl.goal
+[1] TRUE
+--
+$masinahikan.goal
+[1] TRUE
+--
+$Px3Pl.goal
+[1] TRUE
+--
+$atoskêwin.goal
+[1] TRUE
+--
+$kâhkêwak.goal
+[1] TRUE
+--
+$mihti.goal
+[1] TRUE
+--
+$mînis.goal
+[1] TRUE
+--
+$wâskahikan.goal
+[1] TRUE
+--
+$maskisin.goal
+[1] TRUE

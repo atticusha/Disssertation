@@ -1,0 +1,62 @@
+
+Univariate analysis of categorical variables:
+
+Dependents (2):  OrderType = eCnj, Ind, kaaCnj, OtherCnj 
+
+Independents (1): RdplS, RdplW, PV.Time, PV.Qual, PV.Move, PV.StartFinWantCan, PV.StartFin, PV.Position, II_cosine_2, II.sense, II_cosine_1, II.natural.land, II.weather, 
+II_cosine_3, II_cosine_5, II_cosine_4, II.plural, auto.vii.1, auto.vii.2, auto.ni.3.actor, auto.vai.6, auto.vii.3, auto.vii.4, auto.vii.5, auto.ni.6.actor, 
+auto.vai.1, auto.ni.7.actor, auto.vai.9, auto.vii.6, I.actor, Sg.actor, N.actor, NI.object.actor, Dem.actor, Pron.actor, Prox.actor, NI.nominal.actor, 
+Pl.actor, Med.actor, NI.place.actor, actor.3, actor.4
+
+
+                     N     alpha.X2       uc.12        uc.21 eCnj Ind kaaCnj OtherCnj
+RdplS               10    0.2530033  0.05846078  0.003654326    0   0      0        0
+RdplW                9    0.9477402 0.007206234 0.0004134761    0   0      0        0
+PV.Time            204 1.518708e-10  0.05252047   0.02729712    0   +      -        +
+PV.Qual             23     0.738397  0.01033255  0.001250886    0   0      0        0
+PV.Move             19    0.5524684   0.0158058  0.001648965    0   0      0        0
+PV.StartFinWantCan  16    0.1396261  0.05432146  0.004949622    0   0      -        0
+PV.StartFin         14    0.1685578  0.05912605  0.004844944    0   0      0        0
+PV.Position         12    0.0159035  0.08095732  0.005863365    0   0      0        +
+II_cosine_2        324 1.867327e-06  0.02865398   0.01748649    0   +      -        0
+II.sense           277 6.305788e-17  0.08717512   0.05112428    0   +      -        0
+II_cosine_1        230 2.999147e-13  0.07044237   0.03859564    0   -      +        0
+II.natural.land    181  1.77071e-11  0.05865319   0.02876428    -   0      +        0
+II.weather         149 0.0007263378  0.02073554  0.009165466    -   0      +        0
+II_cosine_3         80    0.5804623 0.003755215  0.001128143    0   0      0        0
+II_cosine_5         76   0.03108743  0.01666084   0.00483537    0   +      0        0
+II_cosine_4         44   0.03408949  0.03299291  0.006512143    +   0      -        0
+II.plural           10    0.7224517  0.01694638  0.001059302    0   0      0        0
+auto.vii.1         267   0.04477571 0.008040565  0.004659709    -   0      +        0
+auto.vii.2         130    0.1271738 0.008195731  0.003348982    0   0      0        0
+auto.ni.3.actor    123 3.278762e-07  0.05175495   0.02046158    +   -      -        0
+auto.vai.6         104 1.111178e-09  0.09744884   0.03473524    +   -      0        0
+auto.vii.3          79   0.00170617  0.03183808  0.009484441    0   +      -        0
+auto.vii.4          76   0.03108743  0.01666084   0.00483537    0   +      0        0
+auto.vii.5          63    0.2255613 0.009809999  0.002502693    0   0      0        0
+auto.ni.6.actor     18    0.1974082  0.02952276  0.002952025    0   0      0        0
+auto.vai.1          15   0.01508616  0.08516961  0.007373121    +   -      0        0
+auto.ni.7.actor     12    0.2526238  0.05594392   0.00405176    0   0      0        0
+auto.vai.9          12    0.2154565  0.05521537  0.003998995    0   0      0        0
+auto.vii.6          10    0.7224517  0.01694638  0.001059302    0   0      0        0
+I.actor            183 9.001281e-06  0.03447985   0.01700327    +   0      -        0
+Sg.actor           157 1.386263e-06  0.04207669   0.01914484    +   0      -        0
+N.actor            130 1.539242e-05  0.04611848   0.01884517    +   0      -        0
+NI.object.actor    129 1.540315e-06  0.04551485   0.01851374    +   -      -        0
+Dem.actor           56   0.01443234  0.03398474  0.007980517    +   -      0        0
+Pron.actor          56   0.01443234  0.03398474  0.007980517    +   -      0        0
+Prox.actor          32    0.3160451  0.01856598  0.002892766    0   0      0        0
+NI.nominal.actor    28    0.2559556  0.01970038  0.002773984    0   0      0        0
+Pl.actor            26    0.1029699  0.02465248  0.003280071    0   +      0        0
+Med.actor           24   0.05233087  0.04690887  0.005868725    +   -      0        0
+NI.place.actor      10   0.02272223  0.09276289  0.005798516    0   +      0        0
+actor.3            719    0.2744346 0.008893978  0.001755494    0   0      0        0
+actor.4             44    0.2744346 0.008893978  0.001755494    0   0      0        0
+
+
+Association measures:
+  statistic.12 ~ statistic(1|2) ~ statistic(independent|dependent) [ ~ statistic(R|C) ]
+  statistic.21 ~ statustic(2|1) ~ statistic(dependent|independent) [ ~ statistic(C|R) ]
+
+Posthoc cellwise chi-squared analysis:  std.pearson.residuals.sign 
+

@@ -1,0 +1,65 @@
+$auto.na.6.actor
+[1] TRUE
+--
+$auto.ni.6.goal
+[1] TRUE
+--
+$nîstanân.actor
+[1] TRUE
+--
+$NI.object.actor
+[1] TRUE
+--
+$cistêmâw.actor
+[1] TRUE
+--
+$nimosôm.actor
+[1] TRUE
+--
+$nitânis.actor
+[1] TRUE
+--
+$nôsisim.actor
+[1] TRUE
+--
+$Px12Pl.actor
+[1] TRUE
+--
+$kîkway.actor
+[1] TRUE
+--
+$kôhtâwînaw.actor
+[1] TRUE
+--
+$ninâpêm.actor
+[1] TRUE
+--
+$wîstawâw.actor
+[1] TRUE
+--
+$nitawâsimis.actor
+[1] TRUE
+--
+$nêhiyaw.actor
+[1] TRUE
+--
+$Px1Pl.actor
+[1] TRUE
+--
+$nikosis.actor
+[1] TRUE
+--
+$niwîkimâkan.actor
+[1] TRUE
+--
+$kîkway.goal
+[1] TRUE
+--
+$NI.nominal.goal
+[1] TRUE
+--
+$Pl.goal
+[1] TRUE
+--
+$Prox.goal
+[1] TRUE

@@ -1,0 +1,15 @@
+
+$PV.Position
+[1] TRUE
+
+$auto.vai.1
+[1] TRUE
+
+$auto.vii.6
+[1] TRUE
+
+
+$NI.place.actor
+[1] TRUE
+
+

@@ -1,0 +1,86 @@
+
+Univariate analysis of categorical variables:
+
+Dependents (2):  TopOrder = Cnj, Ind 
+
+Independents (1): PV.Move, PV.Time, PV.Position, PV.Qual, PV.Discourse, PV.StartFin, PV.WantCan, AI.do, AI.state, AI.speech, AI.reflexive, AI.cooking, AI.health, 
+AI.money.count, AI.plural, AI.pray, AI.heat.fire, RdplW, RdplS, auto.vai.2, auto.vai.5, auto.vai.6, auto.vai.12, auto.na.5.actor, auto.vai.11, auto.vai.9, 
+auto.vai.3, auto.nda.1.actor, auto.vai.13, auto.vai.4, auto.na.7.actor, auto.vai.1, auto.vai.8, auto.vai.7, auto.na.1.actor, auto.nda.3.actor, auto.vai.10, 
+auto.na.3.actor, auto.na.2.actor, auto.na.4.actor, auto.na.6.actor, NA.persons.actor, Sg.actor, Pron.actor, Pl.actor, D.actor, NDA.Relations.actor, 
+Dem.actor, Err.Orth.actor, Pers.actor, Px1Sg.actor, Prox.actor, Med.actor, Incl.actor, Obv.actor, NA.beast.of.burden.actor, NA.food.actor, Px3Sg.actor, 
+Indef.actor, Emph.actor, actor.3, actor.1, actor.2, actor.4
+
+
+                            N      alpha.X2        uc.12        uc.21 Cnj Ind
+PV.Move                   494  1.341372e-11   0.01422886   0.00571216   +   -
+PV.Time                   384  4.052919e-10   0.01479237  0.004944143   +   -
+PV.Position               347   0.009902011  0.002601431 0.0008065753   +   -
+PV.Qual                   230  2.384325e-06   0.01257577  0.002854213   +   -
+PV.Discourse              207  4.110644e-12   0.03241597  0.006781048   +   -
+PV.StartFin               207  0.0006195824  0.007052691  0.001475342   +   -
+PV.WantCan                100     0.6035989 0.0003804631 4.466601e-05   0   0
+AI.do                    2346  1.522223e-52   0.02693953    0.0273985   +   -
+AI.state                 2249  6.211755e-15  0.006980483  0.006982982   +   -
+AI.speech                1564 1.154358e-262    0.1486223      0.12513   -   +
+AI.reflexive              330  3.621446e-10   0.01691263  0.005050703   +   -
+AI.cooking                305  5.017014e-07    0.0112942  0.003179017   +   -
+AI.health                 135   0.001226567  0.009107507  0.001360735   +   -
+AI.money.count            120     0.2680667  0.001230953 0.0001673819   0   0
+AI.plural                 114     0.2436672   0.00141946 0.0001852243   0   0
+AI.pray                    79    0.02937022  0.006642767 0.0006437583   +   -
+AI.heat.fire               19      0.239107  0.008715271 0.0002557498   0   0
+RdplW                     164    0.00577303  0.005554251 0.0009682948   +   -
+RdplS                     162     0.5438547 0.0003139507 5.420516e-05   0   0
+auto.vai.2               2356 7.226749e-147    0.0706351   0.07195463   -   +
+auto.vai.5               1160  1.861366e-20   0.01457659   0.01034537   +   -
+auto.vai.6               1072  9.384994e-05  0.002627155  0.001776733   +   -
+auto.vai.12               762  7.397736e-05  0.003413605  0.001851875   +   -
+auto.na.5.actor           694  0.0004210309   0.00288318  0.001468354   +   -
+auto.vai.11               607  2.160878e-11   0.01183874  0.005497603   +   -
+auto.vai.9                322  2.825997e-11   0.01966182  0.005764704   +   -
+auto.vai.3                230   0.001085143  0.005865402   0.00133122   +   -
+auto.nda.1.actor          222     0.1813806  0.001028668 0.0002271733   0   0
+auto.vai.13               212  0.0009173937  0.006470318  0.001378824   +   -
+auto.vai.4                189  0.0002642792  0.008698115  0.001695036   +   -
+auto.na.7.actor           186    0.05487857  0.002416014 0.0004649643   +   -
+auto.vai.1                127     0.4709621 0.0005334684 7.590981e-05   0   0
+auto.vai.8                110   0.009506622   0.00696767 0.0008834379   +   -
+auto.vai.7                 77   0.002326505    0.0135341  0.001284374   +   -
+auto.na.1.actor            66      0.191304  0.002920147 0.0002441689   0   0
+auto.nda.3.actor           61     0.1945038  0.002805157 0.0002197951   0   0
+auto.vai.10                52  0.0004978177   0.02712379  0.001861947   +   -
+auto.na.3.actor            48     0.0951857  0.006325556 0.0004062459   0   0
+auto.na.2.actor            41     0.4636717  0.001679644 9.456132e-05   0   0
+auto.na.4.actor            19     0.4964981  0.003508409 0.0001029544   0   0
+auto.na.6.actor            18     0.1181818   0.01575107 0.0004413009   0   0
+NA.persons.actor          961  3.047515e-06  0.004047984   0.00255599   +   -
+Sg.actor                  713    0.07739912 0.0007129262 0.0003698109   0   0
+Pron.actor                528   0.007026538  0.002054782 0.0008650171   +   -
+Pl.actor                  345  0.0001302771  0.005800879  0.001790835   +   -
+D.actor                   284     0.5815969 0.0001600231 4.267676e-05   0   0
+NDA.Relations.actor       283     0.6090315 0.0001404702 3.736208e-05   0   0
+Dem.actor                 259     0.3053008  0.000544927 0.0001354812   0   0
+Err.Orth.actor            244     0.2683523 0.0006625937 0.0001573776   0   0
+Pers.actor                238    0.03237028  0.002434381 0.0005672515   +   -
+Px1Sg.actor               223     0.6983665 0.0001058304 2.345314e-05   0   0
+Prox.actor                141     0.5752476 0.0003106498 4.804885e-05   0   0
+Med.actor                 116     0.5007544  0.000514574 6.809172e-05   0   0
+Incl.actor                 82     0.8430741 0.0001137426  1.13638e-05   0   0
+Obv.actor                  70    0.01777891  0.008822871 0.0007743199   +   -
+NA.beast.of.burden.actor   62     0.1190058  0.004330958 0.0003439358   0   0
+NA.food.actor              38     0.2547189   0.00390763 0.0002064118   0   0
+Px3Sg.actor                33     0.1633346  0.006548808 0.0003072048   0   0
+Indef.actor                31     0.1125204   0.00893935 0.0003977909   0   0
+Emph.actor                 22     0.2890265  0.006149119 0.0002045218   0   0
+actor.3                  4052  5.995456e-62    0.0283794   0.03152431   -   +
+actor.1                  2047  1.450195e-11  0.005451492  0.005240317   +   -
+actor.2                   382  1.323972e-11   0.01759819  0.005859329   +   -
+actor.4                   196  6.489898e-09   0.02274958  0.004560957   +   -
+
+
+Association measures:
+  statistic.12 ~ statistic(1|2) ~ statistic(independent|dependent) [ ~ statistic(R|C) ]
+  statistic.21 ~ statustic(2|1) ~ statistic(dependent|independent) [ ~ statistic(C|R) ]
+
+Posthoc cellwise chi-squared analysis:  std.pearson.residuals.sign 
+

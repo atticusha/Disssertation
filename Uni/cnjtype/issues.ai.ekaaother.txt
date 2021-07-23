@@ -1,0 +1,23 @@
+$AI.heat.fire
+[1] TRUE
+
+$auto.na.4.actor
+[1] TRUE
+
+$auto.na.6.actor
+[1] TRUE
+
+$auto.ni.3.actor
+[1] TRUE
+
+$Px3Sg.actor
+[1] TRUE
+
+$Indef.actor
+[1] TRUE
+
+$pn.3Pl.actor
+[1] TRUE
+
+$Px12Pl.actor
+[1] TRUE
