@@ -1,0 +1,3 @@
+                       Estimate Std. Error     z value   Pr(>|z|)
+(Intercept)         -1.29527212  0.8751635 -1.48003446 0.13886405
+NI.object.actorTRUE -1.23950422  0.5677317 -2.18325695 0.02901689
